@@ -25,4 +25,4 @@ def get_mahasiswa_by_nim(nim):
         return jsonify({"error": "Data mahasiswa tidak ditemukan"}), 404
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(debug=True)
